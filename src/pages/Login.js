@@ -1,3 +1,5 @@
+import NavBar from "../components/NavBar";
+
 function Login() {
 
 
@@ -6,7 +8,7 @@ function Login() {
     return(
         <>
         <header>
-            {/* save space for NavBar */}
+            <NavBar />
         </header>
         <main>
             <h1>Login</h1>

@@ -1,3 +1,5 @@
+import NavBar from "../components/NavBar";
+
 function About() {
 
 
@@ -6,7 +8,7 @@ function About() {
     return (
         <>
         <header>
-            {/* {save space for NavBar} */}
+            <NavBar />
         </header>
         <main>
             <h1>This is my about component!</h1>
