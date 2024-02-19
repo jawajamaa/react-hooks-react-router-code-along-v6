@@ -4,7 +4,9 @@ function UserCard({user}) {
   return (
     <article>
         <h2>{user.name}</h2>
-        <Link to = "/profile">View Profile</Link>
+        <p>
+          <Link to = { `/profile/${user.id}`}>View Profile</Link>
+        </p>
     </article>
   );
 };
