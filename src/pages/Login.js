@@ -14,7 +14,7 @@ function Login() {
             <h1>Login</h1>
             <form>
                 <div>
-                    <label for = "username">Username: </label>
+                    <label htmlFor = "username">Username: </label>
                     <input id = "username" type = "text" name = "username" placeholder = "Username" />
                 </div>
                 <br />
